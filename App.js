@@ -26,19 +26,8 @@ const HelloWorld = () => {
           component={HelloFartknockers}
           options={{ title: 'Welcome' }}
         />
-        <Stack.Screen name="PushMe" component={PushMe} />
+        <Stack.Screen name="PushMe" component={PushMe} options={{ title: 'Fart Counter'}}/>
       </Stack.Navigator>
-    {/* <View
-      style={styles.container}>
-        <HelloFartknockers />
-      <Text>Hello, fartknockers!</Text>
-      <PushMe />
-      <Text>You clicked {count} times!</Text>
-      <Button
-        onPress={() => setCount(count + 1)}
-        title="Click me!"
-      />
-    </View> */}
     </NavigationContainer>
   )
 }
