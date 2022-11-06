@@ -10,6 +10,7 @@ const HelloWorld = () => {
         alignItems: "center"
       }}>
       <Text>Hello, fartknockers!</Text>
+      <Text>Hello, again, fartknockers</Text>
     </View>
   )
 }

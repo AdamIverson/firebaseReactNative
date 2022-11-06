@@ -16,7 +16,7 @@ const HelloWorld = () => {
   return (
     <View
       style={styles.container}>
-      <Text>Hello, world!</Text>
+      <Text>Hello, fartknockers!</Text>
       <Text>You clicked {count} times!</Text>
       <Button
         onPress={() => setCount(count + 1)}
